@@ -1,0 +1,11 @@
+/* Global styling */
+body {
+    margin: 0; 
+    font-family: Helvetica, sans-serif;
+}
+
+.content {
+    padding: 0 180px; 
+    display: flex; 
+    align-items: center;
+}
