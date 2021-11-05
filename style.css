@@ -42,7 +42,7 @@ header a {
 
 .hero h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #F9FAF8;
     margin-bottom: 0;
 }
@@ -68,5 +68,44 @@ header a {
     display: flex; 
     align-items: center; 
     justify-content: center;
+}
+
+/* Information section styling */ 
+.information {
+    margin-top: 50px; 
+    margin-bottom: 100px; 
+    flex-direction: column;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.information .figure-cluster {
+   display: flex;  
+}
+
+.information .figure {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px; 
+}
+
+.information p {
+    text-align: center;
+}
+
+.information .figure p {
+    color: #4C5664;
+}
+
+.information .image-placeholder {
+    border: 3px solid #3882f6;
+    width: 150px; 
+    height: 150px; 
+    border-radius: 10%; 
 }
 
