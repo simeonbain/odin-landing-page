@@ -142,7 +142,6 @@ header a {
 }
 
 /* Call to action section styling */ 
-
 .call-to-action .box {
     background-color: #3882f6;
     width: 100%; 
@@ -173,3 +172,14 @@ header a {
     min-width: 100px; 
 }
 
+/* Footer styling */ 
+.footer {
+    background-color: #1F2937;
+    color: #E1E5EB;
+    padding-top: 40px; 
+    padding-bottom: 40px; 
+}
+
+.footer p {
+    margin: auto; 
+}
