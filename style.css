@@ -9,3 +9,21 @@ body {
     display: flex; 
     align-items: center;
 }
+
+/* Header styling */ 
+header {
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+header h2 {
+    font-size: 24px;
+    color: #F9FAF8; 
+}
+
+header a {
+    font-size: 18px;
+    color: #E5E7EB; 
+    text-decoration: none;
+    padding: 0 10px; 
+}
