@@ -95,10 +95,13 @@ header a {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    text-align: center;
 }
 
 .information .figure-cluster {
    display: flex;  
+   flex-wrap: wrap;
+   justify-content: center;
 }
 
 .information .figure {
